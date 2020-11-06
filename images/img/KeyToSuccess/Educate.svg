@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="281" height="281" viewBox="0 0 281 281">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.61" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0084cd" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0084cd"/>
+    </linearGradient>
+  </defs>
+  <g id="Educate" transform="translate(-553 100.03)">
+    <g id="Ellipse" transform="translate(555 -98.03)" fill="#fff" stroke="#fff" stroke-width="2">
+      <circle cx="138.5" cy="138.5" r="138.5" stroke="none"/>
+      <circle cx="138.5" cy="138.5" r="139.5" fill="none"/>
+    </g>
+    <path id="Intersection_5" data-name="Intersection 5" d="M-662.168-2689.041c16.794,4.037,35.885,7.2,54.025,6.994,47.637,0,106.626-25.032,160.875-31.067,19.878-2.211,40.41-1.432,58,.326A138.509,138.509,0,0,1-527.5-2583.031,138.561,138.561,0,0,1-662.168-2689.041Z" transform="translate(1221 2762)" fill="url(#linear-gradient)"/>
+    <text id="Educate-2" data-name="Educate" transform="translate(657 98.97)" fill="#fff" font-size="20" font-family="HindMadurai-Bold, Hind Madurai" font-weight="700"><tspan x="0" y="20">Educate</tspan></text>
+    <g id="Icon_Educate" data-name="Icon Educate" transform="translate(649.709 -25.03)">
+      <rect id="Rectangle_251" data-name="Rectangle 251" width="100" height="100" transform="translate(-5.709 -8)" fill="none"/>
+      <path id="Path_914" data-name="Path 914" d="M75.095,49.3V21.8h2.266V15H11.332v2.266H75.095v2.266H2.266V17.266h6.8V15H0v6.8H2.266V62.9H6.951v6.135L9.5,71.581,2.418,74.616V85.562H0v2.266H77.361V85.562H74.943V74.616l-7.081-3.035,2.548-2.548V62.9h4.684V51.565H72.828v9.066H70.41V59.5a3.4,3.4,0,0,0-3.4-3.4h-6.8a3.4,3.4,0,0,0-3.4,3.4v1.133H45.48V59.5a3.4,3.4,0,0,0-3.4-3.4h-6.8a3.4,3.4,0,0,0-3.4,3.4v1.133H20.549V59.5a3.4,3.4,0,0,0-3.4-3.4h-6.8a3.4,3.4,0,0,0-3.4,3.4v1.133H4.533V21.8h68.3V49.3ZM4.684,76.11,11.716,73.1h4.067l7.032,3.014v9.452H4.684ZM36.647,73.1h4.067l7.032,3.014v9.452H29.615V76.11Zm36.03,12.465H54.545V76.11L61.577,73.1h4.067l7.032,3.014ZM59.078,59.5a1.134,1.134,0,0,1,1.133-1.133h6.8A1.135,1.135,0,0,1,68.144,59.5v8.6L65.408,70.83H61.814l-2.736-2.736Zm-2.266,3.4v6.135l2.548,2.548-7.081,3.035V85.562H50.013V74.616l-7.081-3.035,2.548-2.548V62.9ZM34.148,59.5a1.134,1.134,0,0,1,1.133-1.133h6.8A1.134,1.134,0,0,1,43.213,59.5v8.6L40.477,70.83H36.883l-2.736-2.736Zm-2.266,3.4v6.135l2.548,2.548-7.081,3.035V85.562H25.082V74.616L18,71.581l2.548-2.548V62.9ZM9.217,59.5a1.134,1.134,0,0,1,1.133-1.133h6.8A1.134,1.134,0,0,1,18.283,59.5v8.6L15.547,70.83H11.953L9.217,68.094Z" transform="translate(5.956 -9.831)" fill="#0084cd"/>
+      <path id="Path_915" data-name="Path 915" d="M85,125.236a4.53,4.53,0,0,0,7.844,3.091l6.364,1.194a4.91,4.91,0,1,0,5.5-5.748l-4.48-7.549a4.155,4.155,0,1,0-7.118-.377l-3.838,4.865A4.538,4.538,0,0,0,85,125.236Zm4.533,2.267a2.267,2.267,0,1,1,2.266-2.267A2.269,2.269,0,0,1,89.535,127.5Zm9.8-.265-5.376-1.008a4.526,4.526,0,0,0-2.233-4.961L94.7,117.5a4.141,4.141,0,0,0,3.773.2l3.777,6.364a4.933,4.933,0,0,0-2.918,3.174Zm7.351,1.4a2.644,2.644,0,1,1-2.644-2.644A2.647,2.647,0,0,1,106.684,128.636Zm-9.9-16.621A1.889,1.889,0,1,1,94.9,113.9a1.891,1.891,0,0,1,1.889-1.889Z" transform="translate(-66.203 -90.264)" fill="#0084cd"/>
+      <path id="Path_916" data-name="Path 916" d="M277,136h14.732v2.266H277Z" transform="translate(-229.19 -112.549)" fill="#0084cd"/>
+      <path id="Path_917" data-name="Path 917" d="M307,196h14.732v2.266H307Z" transform="translate(-254.657 -163.482)" fill="#0084cd"/>
+      <path id="Path_918" data-name="Path 918" d="M359.5,166h6.8v2.266h-6.8Z" transform="translate(-299.224 -138.015)" fill="#0084cd"/>
+      <path id="Path_919" data-name="Path 919" d="M277,196h2.266v2.266H277Z" transform="translate(-229.19 -163.482)" fill="#0084cd"/>
+      <path id="Path_920" data-name="Path 920" d="M277,166h10.2v2.266H277Z" transform="translate(-229.19 -138.015)" fill="#0084cd"/>
+      <path id="Path_921" data-name="Path 921" d="M389.5,136h2.266v2.266H389.5Z" transform="translate(-324.691 -112.549)" fill="#0084cd"/>
+      <path id="Path_922" data-name="Path 922" d="M452,105h2.266v6.8H452Z" transform="translate(-377.749 -86.231)" fill="#0084cd"/>
+      <path id="Path_923" data-name="Path 923" d="M452,75h2.266v2.266H452Z" transform="translate(-377.749 -60.764)" fill="#0084cd"/>
+    </g>
+  </g>
+</svg>
