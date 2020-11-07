@@ -36,6 +36,10 @@
 }
 
 /* Base */
+.pt-6 {
+  padding-top: 6rem;
+}
+
 .font-size-10 {
   font-size: 10px;
 }
@@ -449,11 +453,24 @@ h5,
     padding: 8em 0;
   }
 }
+
+.subml-8 {
+  margin-left: 8rem;
+}
+@media (max-width: 768px) {
+  .subml-8 {
+    margin-left: 0rem;
+  }
+  .marMobSub {
+    margin: 20px;
+    margin-left: 0px !important;
+  }
+}
 .site-footer .border-top {
   border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 .site-footer p {
-  color: #fff;
+  color: #999896;
 }
 .site-footer h2,
 .site-footer h3,
@@ -463,6 +480,7 @@ h5,
 }
 .site-footer a {
   color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
 }
 .site-footer a:hover {
   color: white;
@@ -589,13 +607,14 @@ h5,
 }
 
 .ul-check {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .ul-check li {
   position: relative;
   padding-left: 35px;
   margin-bottom: 15px;
-  line-height: 1.5;
+  line-height: 1;
+  font-size: 13px;
   color: #000;
 }
 .ul-check li:before {
@@ -1149,7 +1168,7 @@ h5,
 }
 
 .site-section {
-  padding: 7rem 0;
+  padding: 5rem 0;
 }
 @media (max-width: 991.98px) {
   .site-section {
@@ -1306,8 +1325,8 @@ h5,
 
 .block-team-member-1 {
   padding: 30px;
-  border: 1px solid #e9ecef;
-  background: #fff;
+  /* border: 1px solid #e9ecef;
+  background: #fff; */
   position: relative;
   top: 0;
   -webkit-transition: 0.15s all ease-in-out;
@@ -1386,7 +1405,7 @@ h5,
 }
 .block-13 .owl-dots .owl-dot span {
   display: inline-block;
-  width: 7px;
+  width: 20px;
   height: 7px;
   border-radius: 4px;
   background: #cccccc;
@@ -1655,11 +1674,20 @@ h5,
 }
 .top-bar a {
   color: #fff;
+  font-size: 12px;
 }
 
 #faq-section h3 {
   text-transform: none !important;
   font-size: 20px !important;
+}
+
+.keyOwl .owl-prev {
+  display: none;
+}
+
+.keyOwl .owl-next {
+  display: none;
 }
 
 .block__35630 {
@@ -1703,6 +1731,9 @@ h5,
 .pricing {
   background: #fff;
   padding: 30px;
+  border-radius: 10px;
+  /* height: 378px; */
+  position: relative;
 }
 .pricing .price > span {
   color: #cccccc;
@@ -1710,10 +1741,10 @@ h5,
 .pricing .price > span > span {
   font-size: 13px;
   color: #007bff;
-  font-weight: 600;
+  font-weight: 500;
 }
 .pricing ul li {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 /*PRELOADING------------ */
@@ -1947,7 +1978,7 @@ h5,
   color: #000;
   font-weight: 600;
   font-family: 'boldFont';
-  word-spacing: -13px;
+  /* word-spacing: -13px; */
 }
 .headingMission h1 {
   color: #0184cd !important;
@@ -1962,8 +1993,6 @@ h5,
   font-family: 'lightFont';
 }
 .bgMission {
-  height: 100% !important;
-  min-height: 800px;
 }
 span.bold_INt {
   font-weight: 600;
@@ -1978,6 +2007,8 @@ span.bold_INt {
 }
 .roundedbtn {
   border-radius: 100px;
+  font-size: 12px;
+  width: 110px;
 }
 .btnPrice {
   background-color: white;
@@ -1998,15 +2029,16 @@ span.bold_INt {
 }
 /* nav start */
 .custom-navbar {
-  box-shadow: 10px 10px 10px #eee;
-  z-index: ;
-  background-color: #fff;
+  /* box-shadow: 10px 10px 10px #eee; */
+  /* z-index: ; */
+  background-color: rgb(17 17 17 / 43%);
 }
 .nav-link {
-  color: #f7204e !important;
+  color: #fff !important;
+  font-size: 12px;
 }
 .custom-toggler.navbar-toggler {
-  border-color: rgb(247, 32, 78);
+  border-color: #fff;
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247,32,78, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -2051,7 +2083,7 @@ span.bold_INt {
   max-width: 100%;
 }
 .SectionkeyToSuccess.text-center {
-  padding: 25px 0px;
+  padding: 25px 15px;
 }
 
 .bgService {
@@ -2059,4 +2091,152 @@ span.bold_INt {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+.pricing-section-img {
+  background-image: url('../images/img/Image_5.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.block-heading-1 h3 {
+  font-size: 2.5rem;
+  text-transform: none !important;
+  color: #000;
+  font-weight: 600;
+  font-family: 'boldFont';
+  word-spacing: -13px;
+}
+.h-plan {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.p-member {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  line-height: 1;
+  font-size: 13px;
+  color: #000;
+}
+.removelistStyle li {
+  line-height: 1;
+  font-size: 13px;
+  color: #000;
+  padding-left: 0px;
+}
+
+.dotlistStyle li {
+  margin-bottom: 5px !important;
+  line-height: 1;
+  font-size: 13px;
+  color: #000;
+}
+
+.teamSecBg {
+  background-image: url('../images/img/Image_6.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.imgBgContact {
+  background-image: url('../images/img/Image_7.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.block-heading-1 h4 {
+  font-size: 3rem;
+  text-transform: none !important;
+  color: #007bff;
+  font-weight: 600;
+  font-family: 'boldFont';
+  /* word-spacing: -13px; */
+}
+.text-blue {
+  color: #0084cd;
+}
+h3.nameTeam {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pb-6 {
+  padding-bottom: 6rem;
+}
+
+.pb-7 {
+  padding-bottom: 7rem;
+}
+.bgContactForm {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+.textContact {
+  font-size: 21px;
+  font-weight: 600;
+}
+.formInputHeight input.form-control {
+  height: 40px;
+  background-color: #eef9ff !important;
+  font-size: 12px;
+}
+
+.formInputHeight textarea.form-control {
+  /* height: 40px; */
+  background-color: #eef9ff !important;
+  font-size: 12px;
+}
+.contactBtn {
+  border-radius: 100px;
+  max-width: 170px;
+  font-size: 12px;
+}
+.ml-10 {
+  margin-left: 10rem;
+}
+
+h2.subHeading {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 17px;
+  color: white;
+}
+input.form-control.border-secondary.text-white.bg-transparent.footerInput {
+  border-radius: 100px;
+  height: 45px;
+  font-size: 15px;
+  width: 270px;
+}
+button#button-addon2 {
+  border-radius: 100px;
+  font-size: 12px;
+  width: 120px;
+  background-color: transparent;
+  border: solid 2px white;
+}
+.row.padTB {
+  padding: 70px 0px;
+}
+.ftrLogo {
+  font-size: 30px !important;
+  font-weight: 600;
+}
+
+.removeSpace li {
+  margin-bottom: 0px !important;
+}
+span.FonteMailFoter {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  margin-right: 10px;
+}
+
+.brandLogo {
+  font-weight: 600;
+  font-size: 26px;
 }

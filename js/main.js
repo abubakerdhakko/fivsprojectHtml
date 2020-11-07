@@ -158,6 +158,38 @@ jQuery(document).ready(function($) {
 		    }
 			});
 		}
+		if ( $('.nonloop-block-14').length > 0 ) {
+			$('.nonloop-block-14').owlCarousel({
+		    center: false,
+		    items: 1,
+		    loop: true,
+				stagePadding: 0,
+		    margin: 0,
+		    smartSpeed: 1000,
+		    autoplay: true,
+		    nav: true,
+				navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
+		    responsive:{
+	        600:{
+	        	margin: 0,
+	        	nav: true,
+	          items: 2
+	        },
+	        1000:{
+	        	margin: 0,
+	        	stagePadding: 0,
+	        	nav: true,
+	          items: 2
+	        },
+	        1200:{
+	        	margin: 0,
+	        	stagePadding: 0,
+	        	nav: true,
+	          items: 4
+	        }
+		    }
+			});
+		}
 
 		$('.slide-one-item').owlCarousel({
 	    center: false,
@@ -216,7 +248,10 @@ jQuery(document).ready(function($) {
 			});
 		}
 		
+		
+		
 	};
+	
 	siteCarousel();
 
 	
