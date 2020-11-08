@@ -1,0 +1,81 @@
+#a {
+  display: table;
+}
+
+#b {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+#content {
+  /* border: 5px solid red;
+  width: 100px;
+  height: 100px; */
+  margin: auto;
+}
+html,
+body,
+#a {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.ScenerioText h2 {
+  color: #0084cd;
+  font-weight: 600;
+}
+button.btnScenerio {
+  border-radius: 100px;
+  width: 100px;
+  background-color: #0084cd;
+  border: none;
+  padding: 5px;
+  font-size: 12px;
+  color: white;
+}
+
+.bgAuth {
+  background-image: url('../images/img/Image_1.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgLoginForm {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px 30px;
+}
+.SubLogBtn {
+  width: 100%;
+  border-radius: 100px;
+  height: 34px;
+  font-size: 13px;
+}
+.hrefLogin a {
+  font-size: 12px;
+  /* margin-top: 12px; */
+  color: #007bff !important;
+  font-weight: 600;
+}
+.formInputHeight input.form-control {
+  height: 40px;
+  background-color: #eef9ff !important;
+  font-size: 12px;
+}
+
+.LoginLogo {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.border-top-href {
+  border-top: solid 1px #ced4da;
+}
+p.text-Forgot-pass {
+  font-size: 12px;
+}
