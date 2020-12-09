@@ -446,7 +446,7 @@ h5,
 
 .site-footer {
   padding: 4em 0;
-  background: #333333;
+  background: #fff;
 }
 @media (min-width: 768px) {
   .site-footer {
@@ -467,10 +467,13 @@ h5,
   }
 }
 .site-footer .border-top {
-  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  /* border-top: 1px solid rgba(255, 255, 255, 0.1) !important; */
 }
 .site-footer p {
-  color: #999896;
+    color: #999896;
+    font-family: regularFont;
+    line-height: 16px;
+    font-size: 13px;
 }
 .site-footer h2,
 .site-footer h3,
@@ -479,8 +482,10 @@ h5,
   color: #fff;
 }
 .site-footer a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #999896;
   font-size: 12px;
+        font-family : regularFont;
+
 }
 .site-footer a:hover {
   color: white;
@@ -490,7 +495,8 @@ h5,
 }
 .site-footer .footer-heading {
   font-size: 16px;
-  color: #fff;
+  color: #000000;
+  font-family: SemiBoldFont;
 }
 
 .bg-text-line {
@@ -605,7 +611,10 @@ h5,
 .overlap-to-top {
   margin-top: -150px;
 }
-
+.line-height-staff {
+    line-height: 19px;
+        color: white;
+}
 .ul-check {
   margin-bottom: 40px;
 }
@@ -1667,10 +1676,9 @@ h5,
   width: 20px;
   background: #fff;
 }
-
 .top-bar {
-  padding: 0.5rem 0;
-  background: #000000;
+    padding: 0.5rem 0;
+    background: #001623;
 }
 .top-bar a {
   color: #fff;
@@ -1729,7 +1737,7 @@ h5,
 }
 
 .pricing {
-  background: #fff;
+  /* background: #fff; */
   padding: 30px;
   border-radius: 10px;
   /* height: 378px; */
@@ -1738,7 +1746,21 @@ h5,
 .pricing .price > span {
   color: #cccccc;
 }
+.posBtnMember {
+    position: absolute;
+    bottom: 36px;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
 .pricing .price > span > span {
+  font-size: 13px;
+  color: #007bff;
+  font-weight: 500;
+}
+.pricingI .price > span > span {
   font-size: 13px;
   color: #007bff;
   font-weight: 500;
@@ -1969,7 +1991,7 @@ h5,
   font-size: 14px;
 }
 .abt_s h2 {
-  color: #0184cd !important;
+  color: #fff !important;
   font-size: 14px;
 }
 .block-heading-1 h2 {
@@ -1981,7 +2003,7 @@ h5,
   /* word-spacing: -13px; */
 }
 .headingMission h1 {
-  color: #0184cd !important;
+  color: #fff !important;
   font-weight: 600;
   font-size: 31px;
 }
@@ -2014,12 +2036,6 @@ span.bold_INt {
   background-color: white;
   color: #0879fa;
 }
-.bgProjectFunding {
-  background-color: #0879fa;
-  padding: 50px 0px;
-  border-radius: 10px;
-  color: white;
-}
 .bgProjectFunding h2 {
   font-size: 20px;
   font-weight: 600;
@@ -2031,10 +2047,10 @@ span.bold_INt {
 .custom-navbar {
   /* box-shadow: 10px 10px 10px #eee; */
   /* z-index: ; */
-  background-color: rgb(17 17 17 / 43%);
+  background-color: #fff;
 }
 .nav-link {
-  color: #fff !important;
+  color: #0184cd !important;
   font-size: 12px;
 }
 .custom-toggler.navbar-toggler {
@@ -2056,11 +2072,7 @@ span.bold_INt {
 #logo_custom {
   margin-top: -6px;
 }
-@media only screen and (max-width: 760px) {
-  #logo_custom {
-    width: 40%;
-  }
-}
+
 /* end nav */
 
 .bgImgAbt {
@@ -2072,7 +2084,16 @@ span.bold_INt {
 }
 
 .bgkeyparallex {
-  background-image: url(../images/img/Image_1.png);
+  background-image: url(../images/img/Image_KeyToSuccess.png);
+  /* height: 437px; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgsubscribe {
+  background-image: url(../images/img/Section_Subscribe.png);
   /* height: 437px; */
   background-attachment: fixed;
   background-position: center;
@@ -2210,6 +2231,7 @@ input.form-control.border-secondary.text-white.bg-transparent.footerInput {
   height: 45px;
   font-size: 15px;
   width: 270px;
+  border: none;
 }
 button#button-addon2 {
   border-radius: 100px;
@@ -2219,7 +2241,7 @@ button#button-addon2 {
   border: solid 2px white;
 }
 .row.padTB {
-  padding: 70px 0px;
+  padding: 40px 0px;
 }
 .ftrLogo {
   font-size: 30px !important;
@@ -2232,11 +2254,73 @@ button#button-addon2 {
 span.FonteMailFoter {
   font-size: 15px;
   font-weight: 600;
-  color: white;
+  color: #000000;
   margin-right: 10px;
 }
 
 .brandLogo {
   font-weight: 600;
   font-size: 26px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.block-heading-1 h4{
+  color: white !important;
+}
+
+.imgPricing {
+     background-image: url(../images/img/Card_1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 30px !important;
+    height: 320px;
+  }
+  .border_cards {
+     background-image: url(../images/img/Card_0.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 30px !important;
+    height: 320px;
+  }
+  .text-white{
+    color: #fff;
+  }
+.bgProjectFunding {
+     background-image: url(../images/img/Card_22.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  /* background-color: #0879fa; */
+  padding: 50px 0px;
+  border-radius: 10px;
+  color: white;
+}
+@media only screen and (max-width: 760px) {
+  #logo_custom {
+    width: 40%;
+  }
+  .imgPricing {
+    background-image: url(../images/img/Card_1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 30px !important;
+    height: 420px;
+}
+
+.border_cards {
+    background-image: url(../images/img/Card_0.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 30px !important;
+    height: 415px;
+}
 }
